@@ -38,12 +38,13 @@ const App = () => {
   return (
     <div className="app">
       <header>
-        {/* Insert your image here */}
+        
         <img src="/images/mk.jpg" alt="Header" className="header-image" />
 
         <h1>Mohamed Khalil's Portfolio</h1>
         // Inside the <nav> element
-        <nav>
+        // Inside the <nav> element
+<nav>
   <a
     href="#"
     className={selectedSection === "AboutMe" ? "active" : ""}
@@ -73,8 +74,8 @@ const App = () => {
     Resume
   </a>
 </nav>
+</header>
 
-      </header>
 
       {/* Render other sections based on the selected section */}
       {selectedSection === "AboutMe" && <AboutMe />}
