@@ -44,24 +44,28 @@ const App = () => {
         <h1>Mohamed Khalil's Portfolio</h1>
         <nav>
           <a
+            href="#"
             className={selectedSection === "AboutMe" ? "active" : ""}
             onClick={() => handleNavClick("AboutMe")}
           >
             About Me
           </a>
           <a
+            href="#"
             className={selectedSection === "Portfolio" ? "active" : ""}
             onClick={() => handleNavClick("Portfolio")}
           >
             Portfolio
           </a>
           <a
+            href="#"
             className={selectedSection === "Contact" ? "active" : ""}
             onClick={() => handleNavClick("Contact")}
           >
             Contact
           </a>
           <a
+            href="#"
             className={selectedSection === "Resume" ? "active" : ""}
             onClick={() => handleNavClick("Resume")}
           >
