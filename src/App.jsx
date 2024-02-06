@@ -43,7 +43,7 @@ const App = () => {
 
         <h1>Mohamed Khalil's Portfolio</h1>
         // Inside the <nav> element
-<nav>
+        <nav>
   <a
     href="#"
     className={selectedSection === "AboutMe" ? "active" : ""}
