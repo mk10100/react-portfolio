@@ -40,5 +40,8 @@
   },
   "engines": {
     "npm": ">=10.2.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4"
   }
 }
