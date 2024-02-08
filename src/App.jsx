@@ -42,8 +42,8 @@ const App = () => {
         <img src="/images/mk.jpg" alt="Header" className="header-image" />
 
         <h1>Mohamed Khalil's Portfolio</h1>
-        // Inside the <nav> element
-        // Inside the <nav> element
+
+          
 <nav>
   <a
     href="#"
